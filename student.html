@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="HTML5, CSS3, Javascript, Web design, 웹디자인"
+    />
+    <meta name="description" content="웹과 관련된 다양한 실습 진행중" />
+    <meta name="author" content="강채린" />
+    <title>웹프로그래밍 | 프로젝트</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="/img/dog.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">웹</span>프로그래밍</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">홈</a></li>
+            <li><a href="about.html">소개</a></li>
+            <li><a href="ppt.html">자료</a></li>
+            <li class="current"><a href="student.html">프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>뉴스레터 구독 신청</h1>
+        <form>
+          <input type="email" placeholder="Enter your email..." />
+          <button class="custom-btn btn-15">구독 신청</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">진행한 프로젝트 안내</h1>
+          <ul id="service">
+            <li>
+              <h3>CAL-APP</h3>
+              <p>팀원: 강채린, 김솔, 차윤지</p>
+              <a href="https://cal-real-qwoftq.vercel.app">캘린더 사이트 </a>
+            </li>
+            <li>
+              <h3>PortFolio</h3>
+              <p>주제: 개인 포트폴리오 사이트 제작</p>
+              <a href="https://port-folio-olive.vercel.app/">포트폴리오 </a>
+            </li>
+            <li>
+              <h3>WEB DEMO</h3>
+              <p>주제: 웹사이트 데모</p>
+              <a href="https://cpro-hp.netlify.app">WEB </a>
+            </li>
+          </ul>
+        </article>
+
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>문의사항</h3>
+            <form class="quote">
+              <div>
+                <label for="">이름</label> <br />
+                <input type="text" placeholder="Name" />
+              </div>
+              <div>
+                <label for="">이메일</label> <br />
+                <input type="email" placeholder="Email address" />
+              </div>
+              <div>
+                <label for="">문의내용</label> <br />
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <button class="custom-btn btn-15">보내기</button>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2023, 중부대학교 정보보호학과 강채린</p>
+    </footer>
+  </body>
+</html>
